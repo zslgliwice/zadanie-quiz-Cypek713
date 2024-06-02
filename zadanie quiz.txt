@@ -1,0 +1,136 @@
+#include <iostream>
+#include <windows.h>
+#include <cstdlib>
+
+using namespace std;
+
+string imie;
+string odp;
+
+int main()
+{
+	cout << "Podaj imie: ";
+	cin >> imie;
+	int pkt = 0;
+
+	system("cls");
+
+	cout <<"ile jest kontynentow"<<endl;
+	cout <<"a) 4"<<endl;
+	cout <<"b) 5"<<endl;
+	cout <<"c) 8"<<endl;
+        cout <<"d) 7"<<endl;
+	cout <<"Twoja odpowiedz: ";
+	cin >> odp;
+	cout<< "3";Sleep(1000);system("cls");
+	cout<< "3..2";Sleep(1000);system("cls");
+	cout<< "3..2..1..";Sleep(1000);system("cls");
+	if(odp == "d")
+	{
+   	cout << "poprawna odpowiedz";
+   	pkt++;
+   	Sleep(3000);
+    	system("cls");
+	}
+	else
+	{
+    	cout << "zle, odpowiedz to 7";
+    	Sleep(3000);
+    	system("cls");
+	}
+
+
+	cout <<"ile jest wojewodztw"<<endl;
+	cout <<"a) 15"<<endl;
+	cout <<"b) 18"<<endl;
+	cout <<"c) 16"<<endl;
+        cout <<"d) 21"<<endl;
+	cout <<"Twoja odpowiedz: ";
+	cin >> odp;
+	cout<< "3";Sleep(1000);system("cls");
+	cout<< "3..2";Sleep(1000);system("cls");
+	cout<< "3..2..1..";Sleep(1000);system("cls");
+	if(odp == "c")
+	{
+   	pkt++;
+   	Sleep(3000);
+	system("cls");
+	}
+	else
+	{
+    	cout << "zle, odpowiedz to 16"<<endl;
+    	Sleep(3000);
+    	system("cls");
+	}
+
+
+    	cout <<"ile krajow sasiaduje z Polska"<<endl;
+	cout <<"a) 5"<<endl;
+	cout <<"b) 3"<<endl;
+	cout <<"c) 7"<<endl;
+        cout <<"d) 9"<<endl;
+	cout <<"Twoja odpowiedz: ";
+	cin >> odp;
+	cout<< "3";Sleep(1000);system("cls");
+	cout<< "3..2";Sleep(1000);system("cls");
+	cout<< "3..2..1..";Sleep(1000);system("cls");
+	if(odp == "c")
+	{
+   	cout << "poprawna odpowiedz";
+   	pkt++;
+   	Sleep(3000);
+	system("cls");
+	}
+	else
+	{
+    	cout << "zle, odpowiedz to 7";
+    	Sleep(3000);
+    	system("cls");
+	}
+
+    	cout <<"jaki‌ wiek to pelnoletniosc"<<endl;
+	cout <<"a) 17"<<endl;
+	cout <<"b) 19"<<endl;
+	cout <<"c) 20"<<endl;
+        cout <<"d) 18"<<endl;
+	cout <<"Twoja odpowiedz: ";
+	cin >> odp;
+	cout<< "3";Sleep(1000);system("cls");
+	cout<< "3..2";Sleep(1000);system("cls");
+	cout<< "3..2..1..";Sleep(1000);system("cls");
+	if(odp == "d")
+	{
+   	cout << "poprawna odpowiedz"<<endl;
+   	pkt++;
+   	Sleep(6000);
+	system("cls");
+	}
+	else
+	{
+    	cout << "zle, odpowiedz to 18"<<endl;
+    	Sleep(6000);
+    	system("cls");
+	}
+
+	if (pkt == 4)
+	{
+    	cout <<"zdobyles " << pkt <<"/4 punkty";
+	}
+	if (pkt == 3)
+	{
+    	cout <<"zdobyles " << pkt <<"/4 punkty";
+	}
+	if (pkt == 2)
+	{
+    	cout <<"zdobyles " << pkt <<"/4 punkty";
+	}
+	if (pkt == 1)
+	{
+    	cout <<"zdobyles " << pkt <<"/4 punkty";
+	}
+	if (pkt == 0)
+	{
+    	cout <<"zdobyles " << pkt <<"/4 punkty";
+	}
+	return 0;
+}
